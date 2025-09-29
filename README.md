@@ -10,12 +10,12 @@ It is useful for plugins, mods, or tools that require collision or hitbox inform
 The JSON file maps each block material to its bounding box with the following structure:
 
     "MATERIAL_NAME": {
-      "minX": <float>,
-      "minY": <float>,
-      "minZ": <float>,
-      "maxX": <float>,
-      "maxY": <float>,
-      "maxZ": <float>
+      "minX": <double>,
+      "minY": <double>,
+      "minZ": <double>,
+      "maxX": <double>,
+      "maxY": <double>,
+      "maxZ": <double>
     }
 
 ### Example
